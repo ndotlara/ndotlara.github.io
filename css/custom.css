@@ -107,3 +107,8 @@ p {
   font-size: 16px;
   font-style: normal;
 }
+
+#thankyou_message p {
+  color: #be5100;
+  font-size: 25px;
+}
