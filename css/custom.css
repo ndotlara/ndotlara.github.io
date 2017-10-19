@@ -66,6 +66,18 @@ color: #bad3d4;
   position: relative;
   }
 
+#rez-skills img {
+  border: 1px;
+  border-color: #be5100;
+  border-radius: 5px;
+  border-style: solid;
+  box-shadow: -5px 7px 11px 3px #8c8b8b;
+}
+
+#rez-skills h2 {
+  color: #bad3d4;
+}
+
 .italic {
   color: #fff;
 }
