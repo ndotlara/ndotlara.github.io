@@ -174,21 +174,21 @@ p.social a.email {
     text-align: center !important;
   }
 }
-#page1 {
+#about {
   text-align: center;
   background: url('../img/macbook-juice.jpg') center center no-repeat;
   background-size: cover;
   color: #fff;
 }
-#page1 h1,
-#page1 h2,
-#page1 h3 {
+#about h1,
+#about h2,
+#about h3 {
   color: #fff;
 }
-#page1 p {
+#about p {
   font-size: 20px;
 }
-#page1 .icon {
+#about .icon {
   position: absolute;
   bottom: 40px;
   left: 50%;
