@@ -1,6 +1,15 @@
-.overlay {
-  background: #000;
-  opacity: 0;
+#about h2 {
+color: #bad3d4;
+}
+
+#about p {
+  font-size: 16px;
+  font-style: normal;
+  color: #be5100;
+}
+
+#greeting {
+  margin-top: 82px;
 }
 
 #home {
@@ -12,17 +21,12 @@
   position: relative;
   }
 
-#home p {
-
+#honeypot {
+  display: none; /*makes the field not visible to humans*/
 }
 
-#greeting {
-  margin-top: 82px;
-}
-
-#about h2 {
-color: #bad3d4;
-}
+/*#home p {
+}*/
 
 /*#about .icon {
   color: #be5100;
@@ -42,12 +46,6 @@ color: #bad3d4;
   border-color: #be5100;
   transform: translate(0, 0);
 }*/
-
-#about p {
-  font-size: 16px;
-  font-style: normal;
-  color: #be5100;
-}
 
 #portfolio h2, h4 {
   color: #606163;
@@ -78,14 +76,24 @@ color: #bad3d4;
   color: #bad3d4;
 }
 
-.italic {
-  color: #fff;
+#thankyou_message p {
+  color: #be5100;
+  font-size: 25px;
+  float: left;
 }
 
 .col-md-6 {
   font-size: 16px;
   font-style: normal;
   text-align: justify;
+}
+.italic {
+  color: #fff;
+}
+
+.overlay {
+  background: #000;
+  opacity: 0;
 }
 
 .section-gray {
@@ -101,14 +109,4 @@ p {
   color: #206868;
   font-size: 17px;
   font-style: italic;
-}
-
-#about p {
-  font-size: 16px;
-  font-style: normal;
-}
-
-#thankyou_message p {
-  color: #be5100;
-  font-size: 25px;
 }
