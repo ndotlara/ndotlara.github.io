@@ -15,3 +15,12 @@
 .italic {
   color: #fff;
 }
+
+col-md-8 col-md-offset-2 col-sm-12 {
+  margin-top: 58px;
+}
+
+h1 {
+  color: #bad3d4;
+  font-size: 60px;
+}
