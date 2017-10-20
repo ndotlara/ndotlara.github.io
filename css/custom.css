@@ -100,6 +100,13 @@ color: #bad3d4;
   background: #bad3d4;
 }
 
+blockquote {
+  color: #206868;
+  font-size: 18px;
+  font-style: italic;
+  opacity: .65;
+  margin-left: 1px;
+}
 h1 {
   color: #bad3d4;
   font-size: 71px;
@@ -109,4 +116,9 @@ p {
   color: #206868;
   font-size: 17px;
   font-style: italic;
+}
+
+u {
+  color: #206868;
+  text-decoration: none;
 }
