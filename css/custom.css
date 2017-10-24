@@ -87,6 +87,13 @@ color: #bad3d4;
   font-style: normal;
   text-align: justify;
 }
+
+.img-circle {
+  border-radius: 10%;
+  border: 2px;
+  border-color: #be5100;
+}
+
 .italic {
   color: #fff;
 }
@@ -102,11 +109,12 @@ color: #bad3d4;
 
 blockquote {
   color: #206868;
-  font-size: 18px;
   font-style: italic;
-  opacity: .65;
+  font-size: 18px;
   margin-left: 1px;
+  opacity: .65;
 }
+
 h1 {
   color: #bad3d4;
   font-size: 71px;
@@ -119,6 +127,6 @@ p {
 }
 
 u {
-  color: #206868;
+  font-weight: bold;
   text-decoration: none;
 }
